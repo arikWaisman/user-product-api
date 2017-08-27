@@ -1,25 +1,3 @@
-# User / Product REST Api
-simple api that handles auth by way of JWT. Handles product management for users that are authenticated. 
-
-###routes
-All routes except the login route will have to have the ?token='token' appended to them.
-
-All requests with the exception of the image upload should have these headers... assuming you use postman
-
-Content-Type : application/json
-X-Requested-With : XMLHttpRequest
-
-login - /api/lawline/v1/login
-
-
-
-
-
-
-
-
-
-
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
