@@ -104,7 +104,7 @@ class ProductController extends Controller
 	 */
 	public function show( $id ) {
 
-		$product = Product::where( 'id', $id );
+		$product = Product::where( 'id', $id )->first();
 
 		if ( $product ) {
 			$product->view_products = [
